@@ -1,0 +1,12 @@
+{
+    "extends": "./node_modules/@pp/common-typescript/tsconfig.default.module.json",
+    "compilerOptions": {
+        "declarationDir": "build"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@pp/user-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "link": "npm link @pp/common-aws @pp/common-typescript"
+  },
+  "author": "",
+  "license": "ISC"
+}

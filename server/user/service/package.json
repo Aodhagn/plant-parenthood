@@ -1,0 +1,16 @@
+{
+  "name": "@pp/user-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "link": "npm link @pp/common-typescript @pp/user-model"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.673.0"
+  }
+}

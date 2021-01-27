@@ -1,0 +1,28 @@
+.login-page-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.login-container {
+  min-width: 500px;
+  margin: 20px;
+  border: 2px solid #6dc96d;
+  border-radius: 5px;
+  padding: 0 0 20px 0;
+  color: #3D550C;
+}
+
+.text-input > input {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.login-container input {
+  height: 35px;
+  width: 300px;
+  font-size: 15px;
+}

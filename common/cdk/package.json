@@ -1,0 +1,17 @@
+{
+  "name": "@pp/common-cdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "link": "npm link @pp/common-aws @pp/common-typescript"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.38.0",
+    "@aws-cdk/core": "^1.38.0"
+  }
+}

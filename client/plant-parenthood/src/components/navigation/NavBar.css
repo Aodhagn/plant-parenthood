@@ -1,0 +1,32 @@
+.nav-bar {
+  height: 50px;
+  border-bottom: 2px solid #6dc96d;
+  background-color: #77dd77 
+}
+
+.title-nav-link {
+  padding-left: 15px;
+  height: 50px;
+  float: left;
+  font-size: 40px;
+  color: #3D550C;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.user-nav-link {
+  height: 50px;
+  width: 100px;
+  float: right;
+  padding: 0 15px;
+  font-size: 30px;
+  line-height: 50px;
+  color: #3D550C;
+  text-decoration: none;
+  text-align: center;
+  border-left: 2px solid #6dc96d;
+}
+
+.user-nav-link:hover {
+  font-weight: 500;
+}
